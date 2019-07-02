@@ -88,7 +88,7 @@ class Ui_tcplistDialog(object):
         #self.selectButton.setGeometry(QtCore.QRect(400, 500, 75, 23))
         #self.selectButton.setObjectName("selectButton")
         #self.selectButton.clicked.connect(lambda: self.closewindows())
-        #self.retranslateUi(tcplistDialog)
+        self.retranslateUi(tcplistDialog)
         QtCore.QMetaObject.connectSlotsByName(tcplistDialog)
 
     def retranslateUi(self, tcplistDialog):
